@@ -26,4 +26,10 @@ module Manyfaced
       autoload :ModelConcern
     end
   end
+
+  module Concerns
+    extend ActiveSupport::Autoload
+
+    autoload :Base
+  end
 end
