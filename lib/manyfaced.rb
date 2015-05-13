@@ -1,5 +1,10 @@
 require "manyfaced/version"
 
+require 'active_support/core_ext/module'
+require 'active_support/dependencies/autoload'
+
 module Manyfaced
-  # Your code goes here...
+  extend ActiveSupport::Autoload
+
+  autoload :Config
 end
