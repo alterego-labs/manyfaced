@@ -7,4 +7,12 @@ module Manyfaced
   extend ActiveSupport::Autoload
 
   autoload :Config
+
+  module Helpers
+    module Controller
+      extend ActiveSupport::Autoload
+
+      autoload :SettingRenderContext
+    end
+  end
 end
