@@ -1,10 +1,10 @@
 require 'active_support/core_ext/string'
 
-#require 'napoleon/extensions/array_extension'
-#require 'napoleon/extensions/hash_extension'
-#require 'napoleon/extensions/collection_proxy_extension'
-#require 'napoleon/extensions/association_relation_extension'
-#require 'napoleon/extensions/relation_extension'
+require 'manyfaced/extensions/array_extension'
+require 'manyfaced/extensions/hash_extension'
+require 'manyfaced/extensions/collection_proxy_extension'
+require 'manyfaced/extensions/association_relation_extension'
+require 'manyfaced/extensions/relation_extension'
 
 module Manyfaced
   module Concerns
