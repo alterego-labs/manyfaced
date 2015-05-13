@@ -16,5 +16,14 @@ module Manyfaced
 
       autoload :SettingRenderContext
     end
+
+    module Renderer
+      extend ActiveSupport::Autoload
+
+      autoload :MainMethods
+      autoload :Parameters
+      autoload :MethodDispatcher
+      autoload :ModelConcern
+    end
   end
 end
