@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Manyfaced::VERSION
   spec.authors       = ["Sergey Gernyak"]
   spec.email         = ["sergeg1990@gmail.com"]
-  spec.summary       = %q{Our models may be many faced. And our goal is to provide easy and convenient way to render all views.}
+  spec.summary       = %q{Our models may be many faced. And our goal is to provide easy and convenient way to render all of them!}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = "https://github.com/alterego-labs/manyfaced"
   spec.license       = "MIT"
