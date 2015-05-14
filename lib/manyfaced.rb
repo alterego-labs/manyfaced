@@ -9,6 +9,7 @@ module Manyfaced
   extend ActiveSupport::Autoload
 
   autoload :Config
+  autoload :Renderer
 
   module Helpers
     module Controller
@@ -31,5 +32,6 @@ module Manyfaced
     extend ActiveSupport::Autoload
 
     autoload :Base
+    autoload :Renderable
   end
 end

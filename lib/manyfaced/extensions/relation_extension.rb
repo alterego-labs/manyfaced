@@ -1,3 +1,5 @@
+require 'manyfaced/extensions/collection_renderable'
+
 class ActiveRecord::Relation
   include Manyfaced::Extensions::CollectionRenderable
 

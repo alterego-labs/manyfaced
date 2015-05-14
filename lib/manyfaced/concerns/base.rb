@@ -40,11 +40,7 @@ module Manyfaced
       def code_method_missing(name)
         <<-CODE
           def method_missing(m, *args, &block)
-            if #{name}.respond_to?(m)
-              #{name}.send m, *args, &block
-            else
-              super
-            end
+            #{name}.send m, *args, &block
           end
         CODE
       end

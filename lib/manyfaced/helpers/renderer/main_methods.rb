@@ -5,15 +5,19 @@ module Manyfaced
         protected
 
         def render(template, options = {})
-          render_context.render(render_opts(template, options)).html_safe
+          render_in_context custom_opts(template, options)
         end
 
-        def rendering_opts(template, options = {})
+        def self_opts(template, options = {})
           render_params.gen_self template, options
         end
 
-        def render_opts(template, options)
+        def custom_opts(template, options)
           render_params.gen_custom template, options
+        end
+
+        def render_in_context(opts)
+          render_context.render(opts).html_safe
         end
 
         def render_context

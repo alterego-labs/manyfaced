@@ -1,3 +1,5 @@
+require 'manyfaced/extensions/collection_renderable'
+
 class Array
   include Manyfaced::Extensions::CollectionRenderable
 

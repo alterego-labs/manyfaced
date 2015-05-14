@@ -30,7 +30,7 @@ module Manyfaced
     end
 
     def rendering(as: :default, options: {})
-      render '', rendering_opts(as, options)
+      render_in_context self_opts(as, options)
     end
 
     protected
