@@ -1,0 +1,12 @@
+language: ruby
+
+rvm:
+      - 2.1.2
+
+before_install: 'gem install bundler -v 1.7'
+
+script: 'CODECLIMATE_REPO_TOKEN=1dd0026d570c484d4da53f4aeab20e235aca8a23914e8036d7590bd3abee037f  bundle exec rspec'
+
+addons:
+      code_climate:
+              repo_token: 1dd0026d570c484d4da53f4aeab20e235aca8a23914e8036d7590bd3abee037f

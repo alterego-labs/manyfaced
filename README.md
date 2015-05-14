@@ -1,5 +1,9 @@
 # Manyfaced
 
+[![Code Climate](https://codeclimate.com/github/alterego-labs/manyfaced/badges/gpa.svg)](https://codeclimate.com/github/alterego-labs/manyfaced)
+[![Test Coverage](https://codeclimate.com/github/alterego-labs/manyfaced/badges/coverage.svg)](https://codeclimate.com/github/alterego-labs/manyfaced/coverage)
+[![Build Status](https://travis-ci.org/alterego-labs/manyfaced.svg)](https://travis-ci.org/alterego-labs/manyfaced)
+
 Our models may be many faced. And our goal is to provide easy and convenient way to render all of them!
 
 Some of the features are:
